@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-image: url("./pics/bg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FenomeN</title>
+    <link rel="icon" href="./pics/Favicon Logo.png" />
+  </head>
+
+  <body>
+    <header>
+      <!-----nav bar ---->
+      <nav class="navbar">
+        <img
+          src="./pics/Watermark Small.png"
+          alt="FenomeN"
+          height="60"
+          width="60"
+        />
+        <ul>
+          <li class="crumb"><a href="#">Home Page</a></li>
+          <li class="crumb">
+            <a
+              href="https://www.youtube.com/channel/UCKFuS-_yhXWHoDm-0EyGnUQ/featured"
+              >Youtube</a
+            >
+          </li>
+          <li class="crumb">
+            <a href="https://www.twitch.tv/fenomentn">Twitch</a>
+          </li>
+          <li class="crumb"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-----end nav bar ---->
+      <section id="video">
+        <h2>Video</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/G4A4HxT-YIo?controls=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          My Name is Nassim. i am gamer. I stream games for fun. like meeting
+          people and hanging out.<br />
+          i'm always looking for tips to improve my gameplay. so don't be shy.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="container">
+          <form action="#">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your first name"
+            />
+
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name"
+            />
+
+            <label for="State">State</label>
+            <select id="State" name="State">
+              <option value="Sfax">Sfax</option>
+              <option value="Tunis">Tunis</option>
+              <option value="Mahdia">Mahdia</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something"
+              style="height: 200px"
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+    </header>
+
+    <footer>
+      <section id="copyright"></section>
+      <p>© 2021 Nassim Frikha,  All rights reserved</p>
+    </footer>
+  </body>
+</html>
